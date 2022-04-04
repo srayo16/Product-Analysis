@@ -1,7 +1,6 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './Dashboard.css';
-import './Dashboard.css';
 
 const Dashboard = () => {
     const data = [
@@ -83,7 +82,7 @@ const Dashboard = () => {
     ]
     return (
         <div className='container mt-5 contentHandle pb-5 mb-5'>
-            <div className='pe-5 pb-5'>
+            <div className=' pb-5 oneChart ' >
                 <h1 className='fs-4 text-primary text-center pb-3'>Investment vs Revenue </h1>
                 <BarChart width={400} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -96,7 +95,7 @@ const Dashboard = () => {
                 </BarChart>
             </div>
 
-            <div className='pb-5 pe-5'>
+            <div className='pb-5 '>
                 <h1 className='fs-4 text-primary text-center pb-3'>Month wise sell </h1>
                 <LineChart width={400} height={250} data={data2}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>

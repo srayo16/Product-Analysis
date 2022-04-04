@@ -6,11 +6,11 @@ import Home from './Components/Home/Home';
 import Blank from './Components/Blank/Blank';
 import ReviewPage from './Components/ReviewPage/ReviewPage';
 import React, { useEffect, useState } from 'react';
-import About from './Components/About';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
 import UseReviews from './Hook/UseReviews';
 import Footer from './Components/Footer/Footer';
+import About from './Components/About/About';
  export const ReviewsData = React.createContext();
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/home'  element={<Home></Home>}></Route>
         <Route path='/review' element={<ReviewPage></ReviewPage>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
