@@ -1,6 +1,6 @@
 # 9th Assigment by Srayo Sikder
 
-## Live website Link https://9thassignmentbysrayo.netlify.app/home
+## Live website Link https://9thassignmentbysrayo.netlify.app/
 
 
 * এই প্রজেক্টটি পিসি বেচাকেনা সংক্রান্ত সাইট। 
