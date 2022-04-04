@@ -7,6 +7,7 @@ import Blank from './Components/Blank/Blank';
 import ReviewPage from './Components/ReviewPage/ReviewPage';
 import React, { useEffect, useState } from 'react';
 import About from './Components/About';
+import Dashboard from './Components/Dashboard/Dashboard';
  export const ReviewsData = React.createContext();
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/review' element={<ReviewPage></ReviewPage>}></Route>
-        <Route path='/dashboard'></Route>
+        <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<Blank></Blank>}></Route>
       </Routes>
