@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Mir",
+        "id": 1,
+        "review": "Awesome! your products are totally cool!",
+        "ratings": "5 stars"
+    },
+    {
+        "name": "Fahim",
+        "id": 2,
+        "review": "Good service",
+        "ratings": "4 stars"
+    },
+    {
+        "name": "Shakil",
+        "id": 3,
+        "review": "Good warranty",
+        "ratings": "5 stars"
+    },
+    {
+        "name": "Gias",
+        "id": 4,
+        "review": "Good Behaviour , better response",
+        "ratings": "3 stars"
+    },
+    {
+        "name": "Milton",
+        "id": 5,
+        "review": "Price high!",
+        "ratings": "2 stars"
+    },
+    {
+        "name": "Nafis",
+        "id": 6,
+        "review": "Quality and overall service should be good!",
+        "ratings": "1 stars"
+    }
+  
+]

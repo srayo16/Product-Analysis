@@ -6,7 +6,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div>
-            <Navbar bg="dark" variant='dark' expand="lg" >
+            <Navbar bg="dark" variant='dark' expand="lg" style={{height: '70px'}}>
   <Container fluid>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
@@ -16,9 +16,9 @@ const Header = () => {
         navbarScroll
       >
         <CustomLink to="/home" className="navIssue pe-5  ">Home</CustomLink>
-        <CustomLink to="/ko" className="navIssue pe-5 ">Reviews</CustomLink>
-        <CustomLink to="/jihj" className="navIssue pe-5 ">Dashboard</CustomLink>
-        <CustomLink to="/jihj" className="navIssue pe-5 ">blogs</CustomLink>
+        <CustomLink to="/review" className="navIssue pe-5 ">Reviews</CustomLink>
+        <CustomLink to="/ddv" className="navIssue pe-5 ">Dashboard</CustomLink>
+        <CustomLink to="/jffhj" className="navIssue pe-5 ">blogs</CustomLink>
         <CustomLink to="/jihj" className="navIssue pe-5 ">About</CustomLink>
           
       </Nav>

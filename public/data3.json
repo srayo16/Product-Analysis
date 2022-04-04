@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Mir",
+        "id": 1,
+        "review": "Awesome! your products are totally cool!",
+        "ratings": "5 stars"
+    },
+    {
+        "name": "Fahim",
+        "id": 2,
+        "review": "Good service",
+        "ratings": "4 stars"
+    },
+    {
+        "name": "Shakil",
+        "id": 3,
+        "review": "Good warranty",
+        "ratings": "5 stars"
+    }
+  
+]
