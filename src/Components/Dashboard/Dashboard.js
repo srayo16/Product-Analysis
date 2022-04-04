@@ -82,22 +82,22 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='container mt-5 contentHandle'>
+        <div className='container mt-5 contentHandle pb-5 mb-5'>
             <div className='pe-5 pb-5'>
                 <h1 className='fs-4 text-primary text-center pb-3'>Investment vs Revenue </h1>
-            <BarChart width={400} height={250} data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="month" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="investment" fill="#8884d8" />
-                <Bar dataKey="revenue" fill="#82ca9d" />
-            </BarChart>
+                <BarChart width={400} height={250} data={data}>
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="month" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="investment" fill="#8884d8" />
+                    <Bar dataKey="revenue" fill="#82ca9d" />
+                </BarChart>
             </div>
 
             <div className='pb-5 pe-5'>
-            <h1 className='fs-4 text-primary text-center pb-3'>Month wise sell </h1>
+                <h1 className='fs-4 text-primary text-center pb-3'>Month wise sell </h1>
                 <LineChart width={400} height={250} data={data2}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
@@ -106,7 +106,7 @@ const Dashboard = () => {
                     <Tooltip />
                     <Legend />
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
-                    
+
                 </LineChart>
             </div>
         </div>

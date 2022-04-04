@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='container shadow-lg p-3 mb-5 bg-body rounded handlepart mt-5'>
+        <div className='container shadow-lg p-3 mb-5 pb-5 bg-body rounded handlepart mt-5'>
         <h1 className='text-center text-danger '>Que ans for bonus</h1>
         <hr />
         <div className='mt-5 mb-3'>

@@ -10,6 +10,7 @@ import About from './Components/About';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
 import UseReviews from './Hook/UseReviews';
+import Footer from './Components/Footer/Footer';
  export const ReviewsData = React.createContext();
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<Blank></Blank>}></Route>
       </Routes>
+      <Footer></Footer>
       </ReviewsData.Provider>
     </div>
   );
