@@ -9,15 +9,11 @@ import React, { useEffect, useState } from 'react';
 import About from './Components/About';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Blogs from './Components/Blogs/Blogs';
+import UseReviews from './Hook/UseReviews';
  export const ReviewsData = React.createContext();
 
 function App() {
-  const [reviews , setReviews] = useState([]);
-  useEffect(() =>{
-    fetch('data.json')
-    .then(res => res.json())
-    .then(data => setReviews(data))
-} , [])
+  const [reviews , setReviews] = UseReviews();
   return (
     <div>
       <ReviewsData.Provider value= {[reviews , setReviews]}>
