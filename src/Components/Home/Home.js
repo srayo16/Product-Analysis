@@ -23,9 +23,9 @@ const Home = () => {
                 <img className='imageHandle' src="https://st.depositphotos.com/1000128/2642/i/600/depositphotos_26429241-stock-photo-desktop-computer-with-touchscreen-interface.jpg" alt="" />
             </div>
         </section>
-        <section className='mb-5 pb-5 overflow hidden'>
+        <section className='mb-5 pb-5 overflow hidden container'>
         <div>
-            <h1 className='text-dark text-center fw-bold mt-5 pt-5 mb-5 textHandle'>Customer Reviews(3)</h1>
+            <h1 className='text-dark text-center fw-bold mt-5 pt-5 mb-5'>Customer Reviews(3)</h1>
             {
                 reviewSlice.map(singleReview => <Review key={singleReview.id} singleReview={singleReview} ></Review>)
             }

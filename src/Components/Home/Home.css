@@ -21,7 +21,7 @@
     border-radius: 5px;
 }
 .handlebtn{
-    margin-left: 850px;
+    margin-left: 550px;
     font-weight: 600;
     padding-left: 50px;
     padding-right: 50px;
@@ -62,15 +62,10 @@
     .captionPrt{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         width: 225px;
-        position: relative;
-        left: -30px;
        
     }
     .captionPrt p {
         margin-right: 25px;
     }
-    .textHandle{
-        position: relative;
-        left: -30px;
-    }
+    
 }
