@@ -1,0 +1,22 @@
+.homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  
+    
+}
+.captionPrt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-right: 25px;
+   
+}
+.button {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-decoration: none;
+    color: honeydew;
+    background-image: linear-gradient(orange , red );
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
