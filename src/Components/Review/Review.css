@@ -1,0 +1,7 @@
+@media screen and (max-width: 440px) {
+    .handleCard{
+        width: 300px;
+        position: relative;
+        left: -30px;
+    }
+}

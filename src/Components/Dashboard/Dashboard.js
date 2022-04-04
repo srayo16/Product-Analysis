@@ -1,6 +1,7 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './Dashboard.css';
+import './Dashboard.css';
 
 const Dashboard = () => {
     const data = [
@@ -81,9 +82,9 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='container mt-5 d-flex justify-content-center align-items-center'>
-            <div className='pe-5'>
-            <BarChart width={530} height={250} data={data}>
+        <div className='container mt-5 contentHandle'>
+            <div className='pe-5 pb-5'>
+            <BarChart width={400} height={250} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
                 <YAxis />
@@ -94,8 +95,8 @@ const Dashboard = () => {
             </BarChart>
             </div>
 
-            <div>
-                <LineChart width={730} height={250} data={data2}
+            <div className='pb-5 pe-5'>
+                <LineChart width={400} height={250} data={data2}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />

@@ -5,7 +5,7 @@ import './Review.css';
 const Review = ({singleReview}) => {
     const {name ,  review , ratings} = singleReview;
     return (
-        <div>
+        <div className='container handleCard overflow hidden'>
             <Card className="text-center container mb-5">
   <Card.Header><h5>Reviewer Name: <span className='text-danger'>{name}</span></h5></Card.Header>
   <Card.Body>
