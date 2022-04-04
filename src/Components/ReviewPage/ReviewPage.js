@@ -1,15 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { ReviewsData } from '../../App';
 import ReviewPagePro from '../ReviewPagePro/ReviewPagePro';
 
 const ReviewPage = () => {
-    const [reviews , setReviews] = useState([])
-    useEffect(() =>{
-        fetch('data2.json')
-        .then(res => res.json())
-        .then(data => setReviews(data))
-    } , [])
+    const [reviews , setReviews] = useContext(ReviewsData)
+  
     return (
-       <section>
+       <section className='mt-5 mb-5 pb-5'>
+           <h1 className='text-center text-dark mb-5'>Customer's Review</h1>
            {
                reviews.map(item => <ReviewPagePro key={item.id} item={item} ></ReviewPagePro>)
            }

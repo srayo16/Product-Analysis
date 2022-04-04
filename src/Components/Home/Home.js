@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { ReviewsData } from '../../App';
 import Review from '../Review/Review';
 import './Home.css';
 const Home = () => {
-    const [reviews , setReviews] = useState([])
-    useEffect(() =>{
-        fetch('data3.json')
-        .then(res => res.json())
-        .then(data => setReviews(data))
-    } , [])
+    const [reviews , setReviews] = useContext(ReviewsData);
+    let reviewSlice = reviews.slice(0,3);
+    // console.log(reviewSlice);
+    const navigate = useNavigate();
     return (
         <>
         <section className='homePage container mb-5 pb-5'>
@@ -27,9 +27,9 @@ const Home = () => {
         <div>
             <h1 className='text-dark text-center fw-bold mt-5 pt-5 mb-5'>Customer Reviews(3)</h1>
             {
-                reviews.map(singlereview => <Review key={singlereview.id} singlereview={singlereview} ></Review>)
+                reviewSlice.map(singleReview => <Review key={singleReview.id} singleReview={singleReview} ></Review>)
             }
-            <button className='handlebtn'>See All Reviews</button>
+            <button className='handlebtn' onClick={() => navigate('/review')}>See All Reviews</button>
         </div>
         </section>
         </>

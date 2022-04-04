@@ -2,8 +2,8 @@ import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import './Review.css';
 
-const Review = ({singlereview}) => {
-    const {name ,  review , ratings} = singlereview;
+const Review = ({singleReview}) => {
+    const {name ,  review , ratings} = singleReview;
     return (
         <div>
             <Card className="text-center container mb-5">
