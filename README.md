@@ -1,4 +1,15 @@
 # 9th Assigment by Srayo Sikder
 
-Live website Link https://9thassignmentbysrayo.netlify.app/home
+## Live website Link https://9thassignmentbysrayo.netlify.app/home
+
+
+* এই প্রজেক্টটি পিসি বেচাকেনা সংক্রান্ত সাইট। 
+
+* এখানে হোম পেইজে একটি সেকশনে ছবি আর লেখাযুক্ত রয়েছে ,সেই সাথে নিচে আরেকটি সেকশনে কাস্টমার রিভিউ রয়েছে ৩টা।
+
+* রিভিউ পেইজে কাস্টমার রিভিউ দেখানো হচ্ছে।
+
+* ব্লগ পেইজে প্রশ্ন উত্তর ও ড্যাশবোর্ড পেইজে চার্ট রয়েছে।
+
+* ৪০৪ কার্যকর । 
 
