@@ -13,7 +13,7 @@ import Dashboard from './Components/Dashboard/Dashboard';
 function App() {
   const [reviews , setReviews] = useState([]);
   useEffect(() =>{
-    fetch('data2.json')
+    fetch('data.json')
     .then(res => res.json())
     .then(data => setReviews(data))
 } , [])
